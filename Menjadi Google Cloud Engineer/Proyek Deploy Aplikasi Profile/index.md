@@ -26,13 +26,13 @@ Tampilan web layaknya halaman portofolio berkelas.
    ```bash
    git clone 'LINK REPOSITORI GIT YANG MAU DI CLONE'
    ```
-   `contoh`
+   Contoh [link Github web yang saya gunakan](https://github.com/Rothiii/personal-web.git)
    ```bash
    git clone https://github.com/Rothiii/personal-web.git
    ```
    
 3. Buat file `app.yml` didalam direktori/folder web sample nano ap.yaml
-   masukkan kode dibawah kedalam app.yml (menyesuaikan dengan struktur folder web sample)
+   masukkan kode dibawah kedalam app.yml (menyesuaikan dengan struktur folder web yang akan di deploy)
    ```bash
    runtime: python27
    api_version: 1
@@ -47,9 +47,14 @@ Tampilan web layaknya halaman portofolio berkelas.
      static_files: www/\1
      upload: www/(.*)
      ```
+   
 4. Lalu jalankan di cloud shell
-   gcloud app deploy
-5. untuk mengecek webnya ketik
-  gcloud app browse
-6. setelah itu jangan lupa untuk menghapus proyeknya atau menonaktifkan app engine agar tidak mendapatkan tagihan berlebih
-  https://cloud.google.com/appengine/docs/standard/python3/building-app/cleaning-up#disabling_your_application
+   `gcloud app deploy`
+   
+6. Untuk mengecek webnya ketik
+   `gcloud app browse`
+   Lalu klik link yang muncul
+   
+7. Setelah itu jangan lupa untuk menghapus proyeknya atau menonaktifkan app engine agar tidak mendapatkan tagihan
+
+   https://cloud.google.com/appengine/docs/standard/python3/building-app/cleaning-up#disabling_your_application
