@@ -40,12 +40,12 @@ Tampilan web layaknya halaman portofolio berkelas.
    
    handlers:
    - url: /
-     static_files: www/index.html
-     upload: www/index.html
+     static_files: index.html
+     upload: index.html
    
    - url: /(.*)
-     static_files: www/\1
-     upload: www/(.*)
+     static_files: /\1
+     upload: /(.*)
      ```
    
 4. Lalu jalankan di cloud shell
