@@ -1,0 +1,8 @@
+{
+  "name": "13-3-unit-testing-promise",
+  "main": "index.js",
+  "scripts": {
+    "test": "node utils.test.js"
+  },
+  "license": "ISC"
+}

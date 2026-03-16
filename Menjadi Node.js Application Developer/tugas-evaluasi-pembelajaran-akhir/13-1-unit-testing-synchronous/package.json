@@ -1,0 +1,8 @@
+{
+  "name": "13-1-unit-testing-synchronous",
+  "main": "index.js",
+  "scripts": {
+    "test": "node utils.test.js"
+  },
+  "license": "ISC"
+}
